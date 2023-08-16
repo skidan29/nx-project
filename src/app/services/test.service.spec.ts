@@ -13,4 +13,8 @@ describe('TestService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
+
+  it('method sumNumber', () => {
+    expect(service.sunNumber(1,3)).toBe(4);
+  });
 });
