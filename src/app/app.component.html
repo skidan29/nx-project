@@ -1,2 +1,12 @@
 <h1>nx-project</h1>
+<button (click)="test()">test</button>
+<button (click)="test2()">test2</button>
+<a routerLink="/">Main</a>
+<a routerLink="st">StandalonePage</a>
+
+<h1>{{doubleCount()}}</h1>
+<ng-container *ngIf="open">
+    {{def | async}}
+</ng-container>
+
 <router-outlet></router-outlet>
